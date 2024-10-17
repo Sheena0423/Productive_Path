@@ -43,19 +43,28 @@ Below are the available APIs for both **Category** and **Product** management:
 
 2. **Create a new category:**  
    `POST /api/categories`
+   ```
+   http://localhost:8080/api/categories
+   ```
 
-3. **Get category by Id:**  
+4. **Get category by Id:**  
    `GET /api/categories/{id}`  
    Example:  
    ```
    http://localhost:8080/api/categories/{id}
    ```
 
-4. **Update category by Id:**  
+5. **Update category by Id:**  
    `PUT /api/categories/{id}`
+   ```
+   http://localhost:8080/api/categories/{id}
+   ```
 
-5. **Delete category by Id:**  
+7. **Delete category by Id:**  
    `DELETE /api/categories/{id}`
+   ```
+   http://localhost:8080/api/categories/{id}
+   ```
 
 #### **Product CRUD APIs:**
 
@@ -68,14 +77,26 @@ Below are the available APIs for both **Category** and **Product** management:
 
 2. **Create a new product:**  
    `POST /api/products`
+   ```
+   http://localhost:8080/api/products
+   ```
 
-3. **Get product by Id:**  
+4. **Get product by Id:**  
    `GET /api/products/{id}`
+   ```
+   http://localhost:8080/api/products/{id}
+   ```
 
-4. **Update product by Id:**  
+6. **Update product by Id:**  
    `PUT /api/products/{id}`
+   ```
+   http://localhost:8080/api/products/{id}
+   ```
 
-5. **Delete product by Id:**  
+8. **Delete product by Id:**  
    `DELETE /api/products/{id}`
+   ```
+   http://localhost:8080/api/products/{id}
+   ```
 
 ---
